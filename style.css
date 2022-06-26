@@ -1,0 +1,177 @@
+
+.no-underline{
+    text-decoration: none;
+}
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#wrapper{
+    box-sizing: border-box;
+    font-family: "Neue Haas Unica", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2c0345;
+}
+/* Banner */
+#wrapper__banner{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template: 
+    "img  title" 1fr
+    "nav    nav  " 56px
+    /1fr     1fr   ;
+}
+.wrapper__banner__image{
+    grid-area: img;
+}
+.wrapper__banner__title{
+    grid-area: title;
+    background-color: #f4f3f6;
+    width: 100%;
+    height: auto;
+    padding-left: 50px;
+}
+.wrapper__banner__title h1{
+    margin: auto 0;
+}
+.wrapper__banner__items{
+    grid-area: nav;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 0 59px;
+    list-style: none;
+    text-decoration: none;
+    margin-left: -45px;
+    background-color: #ffffff;
+}
+.wrapper__banner__items a{
+    color:#2c0f44;
+    font-weight:700;
+    line-height: 25.6px;
+    text-align: center;
+    font-size: 16px;
+}
+/* end banner  */
+#wrapper_scroll{
+
+}
+#wrapper_type{
+    
+}
+#wrapper_bnf{
+
+}
+#wrapper_exp{
+    
+}
+#wrapper_aftercare{
+    
+}
+#wrapper_faqs{
+
+}
+#wrapper_map{
+    
+}
+
+
+
+/* Thư viện flexbox từ bootstrap */
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+  }
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+.justify-content-start {
+    justify-content: flex-start;
+}
+.justify-content-end {
+    justify-content: flex-end;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-around {
+    justify-content: space-around;
+}
+.align-items-start {
+    align-items: flex-start;
+}
+.align-items-end {
+    align-items: flex-end;
+}
+.align-items-center {
+    align-items: center;
+}
+.align-items-baseline {
+    align-items: baseline;
+}
+.align-items-stretch {
+    align-items: stretch;
+}
+.align-content-start {
+    align-content: flex-start;
+}
+.align-content-end {
+    align-content: flex-end;
+}
+.align-content-center {
+    align-content: center;
+}
+.align-content-between {
+    align-content: space-between;
+}
+.align-content-around {
+    align-content: space-around;
+}
+.align-content-stretch {
+    align-content: stretch;
+}
+.align-self-auto {
+    align-self: auto ;
+}
+.align-self-start {
+    align-self: flex-start;
+}
+.align-self-end {
+    align-self: flex-end;
+}
+.align-self-center {
+    align-self: center;
+}
+.align-self-baseline {
+    align-self: baseline;
+}
+.align-self-stretch {
+    align-self: stretch; 
+}
+/* xxxxxxxxxxxxx  */
+
+/* Responsive */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+}
+@media only screen and (max-width: 767px){
+
+}
+
+@media only screen and (max-width: 320px){
+
+}
